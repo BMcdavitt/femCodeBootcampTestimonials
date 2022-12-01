@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url('/images/pattern-curve.svg');
+  background-image: url('../../images/pattern-curve.svg');
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: 75%;
@@ -33,7 +33,7 @@ main {
   grid-template-rows: repeat(12, 1fr);
   align-items: center;
   justify-items: center;
-  background-image: url('/images/pattern-bg.svg');
+  background-image: url('../../images/pattern-bg.svg');
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -110,7 +110,7 @@ main {
   text-align: center;
   line-height: 24px;
 
-  background-image: url('/images/pattern-quotes.svg');
+  background-image: url('../../images/pattern-quotes.svg');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 20%;
