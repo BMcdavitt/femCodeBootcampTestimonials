@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/dist/css/reset.css">
+  <link rel="stylesheet" href="/dist/css/style.css">
+
+
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+  <script src="index.js"></script>
+
+</head>
+
+<body>
+  <main>
+    <div class="photoBlock">
+
+      <div class="photo">
+        <img class="profilePhoto" src="" alt="profile photo" />
+      </div>
+
+      <div class="controls">
+        <div class="leftControl" onclick="priorTestamonial()">
+          <img src="./images/icon-prev.svg" alt="click here for previous testamonial">
+        </div>
+        <div class="rightControl" onclick="nextTestamonial()">
+          <img src="./images/icon-next.svg" alt="click here for next testamonial">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="testamonial">
+      <div class="quote"></div>
+      <div class="signature">
+        <div class="name"></div>
+        <div class="title"></div>
+      </div>
+    </div>
+  </main>
+</body>
+<script>
+  displayQuoteData()
+  switchPhoto() 
+</script>
+
+</html>
